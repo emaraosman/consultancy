@@ -8,7 +8,7 @@
   <meta name="description" content="ISDA Contract Negotiators, Derivative solutions: consulting, recruiting, and in-house/public training.">
   <meta name="keywords" content="Derivative contract negotiator, derivative, contract, negotiator, ISDA, swaps, trader">
   <link rel="stylesheet" href="assets/stylesheets/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,700" rel="stylesheet">
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -28,45 +28,82 @@
     <h2 id="hero-kicker">The insole has <span class="blue-text">evolved.</span></h2>
   </section>
 
-  <header>
 
-    <!-- NAV BAR -->
 
-    <nav>
-      <a id="nav-logo" href="index.html">
-        <p>HOME</p>
-      </a>
-      <ul>
-        <li class="nav-links"><a href="product.html">SERVICES</a></li>
-        <li class="nav-links"><a href="#">ABOUT</a></li>
-        <li class="nav-links  blog-dropdown"><a>CONTACT</a></li>
-      </ul>
-    </nav>
+  <!-- NAV BAR -->
+  <nav id="nav-mobile">
+    <a class="nav-logo" href="index.html">
+      <a class="home-button"></a>
+    </a>
+    <ul>
+      <li class="nav-links"><a href="product.html">SERVICES</a></li>
+      <li class="nav-links"><a href="#">ABOUT</a></li>
+      <li class="nav-links  blog-dropdown"><a>CONTACT</a></li>
+    </ul>
+  </nav>
 
-  </header>
+  <nav id="nav-desktop">
+    <a class="nav-desktop-logo" href="index.html">
+      <a class="home-button"></a>
+    </a>
+    <ul>
+      <li class="nav-links"><a href="product.html">SERVICES</a></li>
+      <li class="nav-links"><a href="#">ABOUT</a></li>
+      <li class="nav-links  blog-dropdown"><a>CONTACT</a></li>
+    </ul>
+  </nav>
+
+
 
 
 
   <!-- remember to remove css background to enable these to become visible!!!!!!!!!!!!!!!!! -->
-  <div class="header-background">
-    <div class="hero-background" style="background: url('assets/images/training.jpg') top; background-size:cover; background-repeat:no-repeat;"></div>
-  </div>
+  <!-- <div class="header-background"> -->
+  <div class="hero-background" style="background: url('assets/images/training.jpg') top; background-size:cover; background-repeat:no-repeat;"></div>
+  <!-- </div> -->
 
   <div class="header-background-color"></div>
 
   <section id="services-section">
-    <div class="services-showcase">
-      <img class="isda-negotiations" src="assets/images/contract.jpg" />
-      <h1>ISDA Negotiator</h1>
-    </div>
-    <div class="services-showcase">
-      <img class="training" src="assets/images/inhouse.jpg" />
-      <h1>Training</h1>
-    </div>
-    <div class="services-showcase">
-      <img class="recruiting" src="assets/images/hero.jpg" />
-      <h1>Recruiting</h1>
-    </div>
+
+    <a href="https://google.com">
+      <div class="services-showcase">
+
+        <div class="services-tophalf">
+          <div class="wrap">
+            <h1 class="services-title">ISDA Negotiations</h1>
+          </div>
+          <img class="isda-negotiations" src="assets/images/contract.jpg" />
+        </div>
+        <div class="services-text">
+
+        </div>
+
+      </div>
+    </a>
+
+    <a href="https://google.com">
+      <div class="services-showcase">
+
+        <div class="services-tophalf">
+          <div class="wrap">
+            <h1 class="services-title">Training</h1>
+          </div>
+          <img class="training" src="assets/images/inhouse.jpg" />
+        </div>
+
+      </div>
+    </a>
+    <a href="https://google.com">
+      <div class="services-showcase" style="flex:2">
+        <div class="services-tophalf">
+          <div class="wrap">
+            <h1 class="services-title">Recruiting</h1>
+          </div>
+          <img class="recruiting" src="assets/images/hero.jpg" />
+        </div>
+      </div>
+    </a>
 
   </section>
 
@@ -79,7 +116,8 @@
 
 
   <!-- Link to the master js file below -->
-  <script src="assets/stylesheets/master.js"></script>
+  <script src="assets/stylesheets/master.js">
+  </script>
 
 </body>
 
