@@ -332,6 +332,35 @@ nav ul{
 }
 
 
+
+/*
+||||||||||||||||||||||||||||||||||||||||
+|||||FOOTER BEGINS BELOW
+||||||||||||||||||||||||||||||||||||||||
+*/
+
+footer {
+	height: 400px;
+	width: 100%;
+	background-color: rgb(45, 188, 255);
+	padding-top: 80px;
+	color: white;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.footer-col li{
+	margin: 10px;
+}
+
+
+
+
 /*
 DESKTOP VERSION
  */
@@ -364,14 +393,16 @@ DESKTOP VERSION
 	nav ul{
 	  display: flex;
 	  justify-content: space-around;
-	  flex:3;
+
 	  /*padding-left: 20%;*/
 		flex-direction: row;
 	}
 }
 
 
-/* WHEN MOBILE  */
+/*
+MOBILE VERSION
+  */
 @media only screen and (max-width : 500px) {
 
 
@@ -380,6 +411,8 @@ DESKTOP VERSION
 	}
 
 }
+
+
 
 
 
