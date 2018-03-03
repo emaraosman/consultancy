@@ -70,7 +70,7 @@ body{
 }
 
 .blue-text {
-	color: rgb(45, 188, 255);
+	color: rgb(45, 188, 230);
 }
 
 
@@ -196,12 +196,9 @@ a {
 	vertical-align: middle;
 }
 
-#nav-logo p:hover{
-	color: red;
-}
 
 nav a:hover{
-	color: red;
+	color: rgb(45, 188, 230);
 }
 
 .nav-links{
@@ -282,7 +279,7 @@ nav ul{
 	position: absolute;
 	width: auto;
 	max-width: 300px;
-	border-bottom: 5px solid rgb(45, 188, 255);
+	border-bottom: 5px solid rgb(45, 188, 230);
 }
 
 .services-title {
@@ -342,9 +339,10 @@ nav ul{
 footer {
 	height: 400px;
 	width: 100%;
-	background-color: rgb(45, 188, 255);
+	background-color: rgb(47, 61, 84);
 	padding-top: 80px;
 	color: white;
+	border-top: 8px solid rgb(45, 188, 230);
 }
 
 .footer-container {
