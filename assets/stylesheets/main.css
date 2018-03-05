@@ -129,7 +129,7 @@ a {
 }
 
 #hero-text h1{
-	font-size: 70px;
+	font-size: 60px;
 	color: white;
 	font-weight: 600;
 	text-shadow: 2px 2px 2px black;
@@ -139,7 +139,7 @@ a {
 
 #hero-kicker{
 	padding: 70px 0px 0px 20px;
-	font-size: 45px;
+	font-size: 30px;
 	color: white;
 	font-weight: 600;
 	text-shadow: 2px 2px 2px black;
@@ -169,7 +169,7 @@ a {
 	float: right;
 	margin-right: 30px;
 	font-size: 35px;
-	line-height: 7px;
+	line-height: 20px;
 	font-weight: 200;
 	transition: .2s;
 }
@@ -199,7 +199,7 @@ a {
 	background-repeat: no-repeat;
 	background-size: contain;
 	align-self: center;
-	background-color: rgb(45, 188, 230);
+	background-color: rgb(84, 136, 216);
 }
 
 .nav-logo .home-button{
@@ -250,7 +250,7 @@ nav a:hover{
 }
 
 .sub-links {
-	background-color: rgb(230,230,230);
+	background-color: rgb(220,220,230);
 	display: none;
 	transition: 1s;
 	text-align: center;
@@ -259,7 +259,7 @@ nav a:hover{
 .sub-links a{
 	text-align: center;
 	margin-left: 30px;
-
+	font-size: 15px;
 }
 
 nav ul{
