@@ -66,7 +66,6 @@ body{
   font-weight: 400;
 	height:100%;
 	width:100%;
-
 }
 
 .blue-text {
@@ -147,6 +146,9 @@ a {
 	/*font-variant: small-caps;*/
 }
 
+
+
+
 /*
 ||||||||||||||||||||||||||||||||||||||||
 |||||NAV BEGINS BELOW
@@ -163,6 +165,15 @@ a {
 	z-index: 3;
 }
 
+.services-button {
+	float: right;
+	margin-right: 30px;
+	font-size: 35px;
+	line-height: 7px;
+	font-weight: 200;
+	transition: .2s;
+}
+
 #nav-desktop{
 	position: absolute;
 	display: none;
@@ -174,20 +185,36 @@ a {
 	z-index: 3;
 }
 
-.nav-logo{
+.nav-logo {
 	display: inline-block;
 	height: inherit;
-	width: auto;
+	width: 100%;
   align-self: center;
   flex: 1;
   text-decoration: none;
   color: black;
   text-align: center;
   padding-left: 2px;
-	background: url("../images/logo.png");
+	/* background: url("../images/logo.png"); */
 	background-repeat: no-repeat;
 	background-size: contain;
 	align-self: center;
+	background-color: rgb(45, 188, 230);
+}
+
+.nav-logo .home-button{
+	margin: 0 auto;
+}
+
+.home-button{
+	display: inline-block;
+	/* background: url("../images/logo.png"); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 120px;
+	height: auto;
+	margin: 0 auto;
 }
 
 #nav-logo p{
@@ -222,6 +249,19 @@ nav a:hover{
 	padding-left: 10px;
 }
 
+.sub-links {
+	background-color: rgb(230,230,230);
+	display: none;
+	transition: 1s;
+	text-align: center;
+}
+
+.sub-links a{
+	text-align: center;
+	margin-left: 30px;
+
+}
+
 nav ul{
   display: flex;
   justify-content: space-around;
@@ -243,6 +283,7 @@ nav ul{
 	padding: 80px 0px;
 	height: auto;
 	width: 100%;
+	background-color: rgb(235, 240, 255);
 }
 
 #services-section a{
@@ -318,15 +359,7 @@ nav ul{
 	height: 100%;
 }
 
-.home-button{
-	display: inline-block;
-	background: url("../images/logo.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 130px;
-	height: 100%;
-}
+
 
 
 
