@@ -178,11 +178,17 @@ a {
 	position: absolute;
 	display: none;
   width: 100%;
+		max-width: 1400px;
   height: 80px;
   display: flex;
   align-items: center;
   background-color: rgba(255,255,255,0.9);
 	z-index: 3;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .nav-logo {
@@ -277,13 +283,30 @@ nav ul{
  */
 
 #services-section{
+	box-sizing: border-box;
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding: 80px 0px;
 	height: auto;
-	width: 100%;
 	background-color: rgb(235, 240, 255);
+}
+
+
+
+.services-container {
+	width: 100%;
+	max-width: 1400px;
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 80px 0px;
+	height: auto;
+	background-color: rgb(235, 240, 255);
+	margin: 0 auto;
 }
 
 #services-section a{
@@ -294,13 +317,13 @@ nav ul{
 .services-showcase {
 	flex: 1;
 	flex-wrap: wrap;
-	width: 350px;
+
 	height: 350px;
 	margin: 0px;
-	min-width: 350px;
+	min-width: 300px;
 	min-height: 400px;
-	max-width: 350px;
-	max-height: 350px;
+	max-width: 370px;
+	max-height: 400px;
 	border: 1px solid rgba(0,0,0,.2);
 	box-shadow: 0px 0px 10px -4px rgba(0,0,0,1);
 	transition: .2s;
@@ -333,8 +356,8 @@ nav ul{
 }
 
 .isda-negotiations {
-	background: url("../images/contract.jpg") center center;
-	background-position: center;
+	background: url("../images/contract.jpg") top;
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -342,8 +365,8 @@ nav ul{
 }
 
 .training {
-	background: url("../images/inhouse.jpg") center center;
-	background-position: center;
+	background: url("../images/inhouse.jpg") top;
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -351,8 +374,8 @@ nav ul{
 }
 
 .recruiting {
-	background: url("../images/hero.jpg");
-	background-position: center;
+	background: url("../images/hero.jpg") top;
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -383,6 +406,8 @@ footer {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: flex-start;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .footer-col li{
@@ -400,15 +425,22 @@ DESKTOP VERSION
 		display: none;
 	}
 
+	.nav-logo {
+		max-width: 200px;
+	}
+
 	.home-button{
 		display: inline-block;
+		padding-top: 3px;
+		width: 140px
 	}
 
 	.nav-links{
 
-		width: auto;
+		align-items: flex-start;
 		border-top: none;
 		padding: 0px;
+		max-width: 300px;
 	}
 
 	.nav-links a{
@@ -428,6 +460,41 @@ DESKTOP VERSION
 	  /*padding-left: 20%;*/
 		flex-direction: row;
 	}
+
+	.dropdown {
+		position: absolute;
+		height: 300px;
+		width: 300px;
+		margin-left: ;
+		margin-top: 30px;
+	}
+	.dropdown ul{
+		position: relative;
+		display: block;
+
+	}
+
+	.dropdown li {
+		border-top: 1px solid rgba(130,130,130,0.3);
+		width: 100%;
+	}
+
+	.sub-links {
+		background-color: rgb(220,220,230);
+		display: none;
+		transition: 1s;
+		text-align: center;
+		width: 180px;
+	}
+
+	.sub-links a{
+		text-align: center;
+		font-size: 20px;
+		display: block;
+		padding: 10px 0px 10px 0px;
+		margin: 0px;
+	}
+
 }
 
 
