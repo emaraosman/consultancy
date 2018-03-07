@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <title> ISDA Derivative Negotiator </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ISDA Contract Negotiators, Derivative solutions: consulting, recruiting, and in-house/public training.">
+  <meta name="description" content="Derivative Negotiator handles ISDA documentation services and provides ISDA training courses.">
   <meta name="keywords" content="Derivative contract negotiator, derivative, contract, negotiator, ISDA, swaps, trader">
   <link rel="stylesheet" href="../../assets/stylesheets/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -65,7 +65,7 @@
   </nav>
 
 
-  <div class="hero-background" style="background: url('assets/images/training.jpg') top; background-size:cover; background-repeat:no-repeat;"></div>
+  <div class="hero-background" style="background: url('../images/contract2.jpg') top; background-size:cover; background-repeat:no-repeat;"></div>
   <!-- </div> -->
 
   <div class="header-background-color"></div>
@@ -80,42 +80,87 @@
 <section id="article-section">
 
 
-  <p class="article-text">ISDA NEGOTIATIONS
+<div class="article-text">
 
-Derivative Negotiator LLC provides the latest and most efficient negotiation services for ISDA Master Agreements and related documentation for our clients.
+  <h2 class="article-title">Derivative Negotiator LLC provides the latest and most efficient negotiation services for ISDA Master Agreements and related documentation for our clients.</h2>
 
-Derivative Negotiator LLC provides a premium ISDA negotiation consultancy on a contract basis. We teach and implement ISDA negotiation strategies and guidelines that provide our clients with the most innovative and protective legal, credit, and market risk provisions.  We consult on and develop institutional quality OTC derivative trading agreements, comprehensive negotiation guidelines and strategies, that can immediately be used by our clients as day-to-day practice. We are also very proud of our on-site half or full day training course on the ISDA Master Agreement and related documentation. Our training is the most comprehensive and effective in the market.
+  <h2 class="article-header">ISDA NEGOTIATIONS</h2>
 
+<p>
+  Derivative Negotiator LLC provides a premium ISDA negotiation consultancy on a contract basis. We teach and implement ISDA negotiation strategies and guidelines that provide our clients with the most innovative and protective legal, credit, and market risk provisions.  We consult on and develop institutional quality OTC derivative trading agreements, comprehensive negotiation guidelines and strategies, that can immediately be used by our clients as day-to-day practice. We are also very proud of our on-site half or full day training course on the ISDA Master Agreement and related documentation. Our training is the most comprehensive and effective in the market.
+</p>
+
+<p>
 With our services comes a wealth of knowledge from the buy-side, servicing multi-billion dollar Hedge Funds and establishing their trading agreements with the worlds largest banks, to the sell-side establishing a Banks Capital Markets Swap Dealers trading agreements for hundreds of commodity, rates, and foreign exchange trading counterparties.
+</p>
 
+<p>
 We negotiate on behalf of our clients using the latest and most protective provisions in the industry. Our services last long after our services are complete, we leave after having revamped derivative documentation operations, improving the efficacy of negotiations, reducing overall capital market risk, and lowering the cost of doing OTC business.
+</p>
 
-Services include consultancy and negotiation services for the following documentation:
-ISDA Master Agreements
-Variation Margin or Non-VM Credit Support Annexes
-Confirmations
-Global Master Repurchase Agreements
-Global Master Securities Lending Agreements
-Novation Agreements
-Termination Agreements
-Guarantee Agreements
-Credit Agreement Analysis: including the analysis of Swap securitization; collateralization protections; Event of Default triggers; tethering derivative protections to overall credit agreement structure and the agreements function.
+<p class="list-title">
+  Services include consultancy and negotiation services for the following documentation:
+  <ol>
+    <li>
+      ISDA Master Agreements
+    </li>
+    <li>
+      Variation Margin or Non-VM Credit Support Annexes
+    </li>
+    <li>
+      Confirmations
+    </li>
+    <li>
+      Global Master Repurchase Agreements
+    </li>
+    <li>
+      Global Master Securities Lending Agreements
+    </li>
+    <li>
+      Novation Agreements
+    </li>
+    <li>
+      Termination Agreements
+    </li>
+    <li>
+      Guarantee Agreements
+    </li>
+    <li>
+      Credit Agreement Analysis: including the analysis of Swap securitization; collateralization protections; Event of Default triggers; tethering derivative protections to overall credit agreement structure and the agreements function.
+    </li>
+  </ol>
+</p>
 
+<p class="list-title">
 Advisory and consultancy services provide solutions for the following challenges:
-Advise on building or improving web-based portals for documentation tracking, designed to handle KPIs and KRIs, internal audit reviews, regulatory reviews and internal and external data inquiries.
-Manage backlog clearance of outstanding ISDA negotiations
-Staff shortage and transitional periods
-On job training of novice or mid-level negotiators or related credit, legal, middle office and back office staff.
+  <ol>
+    <li>
+      Advise on building or improving web-based portals for documentation tracking, designed to handle KPIs and KRIs, internal audit reviews, regulatory reviews and internal and external data inquiries.
+    </li>
+    <li>
+      Manage backlog clearance of outstanding ISDA negotiations
+    </li>
+    <li>
+      Staff shortage and transitional periods
+    </li>
+    <li>
+      On job training of novice or mid-level negotiators or related credit, legal, middle office and back office staff.
+    </li>
+  </ol>
+</p>
 
+<h2 class="article-header">TRANSPARENCY IN OUR WORK</h2>
 
-TRANSPARENCY IN OUR WORK
-
+<p>
 ISDA contracts are prepaid by our clients at a flat rate in reasonable quantities. This payment structure removes the complex, exorbitant payment structures global law firms use that incentivise delay in negotiation and execution. Our lean team of derivatives documentation negotiators are focused on the efficient execution of contracts. We use the same provisions as global law firms, but negotiate for a fraction of the price.
+</p>
 
 
-ISDA MASTER AGREEMENT TRAINING
+<!-- <h2 class="article-header">ISDA MASTER AGREEMENT TRAINING<h2>
+<p>
+  We are confident our in-house training course on the ISDA Master Agreement and its ancillary documentation, is the most comprehensive and effective training you will find on the market. Our half or full day training sessions at clients’ offices provide our clients with comprehensive, tailored guidelines and course materials that can be implemented as any clients’ ISDA negotiation policy and procedure. Our ultimate goal is to revamp and improve our clients’ negotiation strategy and processes with focused and effective ISDA knowledge and guidelines.
+</p>
 
-We are confident our in-house training course on the ISDA Master Agreement and its ancillary documentation, is the most comprehensive and effective training you will find on the market. Our half or full day training sessions at clients’ offices provide our clients with comprehensive, tailored guidelines and course materials that can be implemented as any clients’ ISDA negotiation policy and procedure. Our ultimate goal is to revamp and improve our clients’ negotiation strategy and processes with focused and effective ISDA knowledge and guidelines.
 
 Our training covers the most highly negotiated provisions in the ISDA (add sections Part 1 (b) to provisions AND possibly info per section such as PD/S&P Moodys credit profile analysis for threshold amount)
 Specified Entity
@@ -168,8 +213,8 @@ In-House Derivatives Documentation Negotiator for Super Regional Bank
 Negotiated on behalf of super regional bank all OTC derivative contracts with clients outside counsel.
 Created negotiation guidelines to assist the most novice negotiator in negotiating an ISDA with any type of trading counterparty to an ISDA.
 Worked closely with lines of business (traders), legal, credit, risk, middle office, and back office, advising on legal documentation analysis and interpretation, ISDA dictated operational practice, contract structure, and other Dodd Frank and CFTC regulatory compliance matters.
-Negotiated over 350 ISDAs with a variety of financial counterparties and a variety of financial products.
-</p>
+Negotiated over 350 ISDAs with a variety of financial counterparties and a variety of financial products. -->
+</div>
 
 </section>
 
