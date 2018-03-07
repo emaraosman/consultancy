@@ -99,8 +99,8 @@ a {
 }
 
 .hero-background{
-	height: 400px;
-	min-height: 400px;
+	height: 420px;
+	min-height: 420px;
 	width: auto;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -132,7 +132,7 @@ a {
 	font-weight: 600;
 	text-shadow: 2px 2px 2px black;
 	font-variant: small-caps;
-	margin-top: 140px;
+	margin-top: 120px;
 }
 
 #hero-kicker{
@@ -433,8 +433,35 @@ nav ul{
 	margin-bottom: 10px;
 }
 
+.article-sm-header {
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
 
+.flexed-text-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	border: 1px solid gray;
+	justify-content: space-between;
+}
 
+.flexed-text-container p:last-child{
+	margin-bottom: 20px;
+}
+
+.flex-text-3 {
+	align-self: center;
+	flex: 2;
+	border-right: solid 1px gray;
+}
+
+.flex-text-2{
+	align-self: center;
+	flex: 1;
+	text-align: center;
+}
 
 
 
