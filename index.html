@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- navbar tray script -->
+  <script type="text/javascript" src="assets/js/navbar-tray.js"></script>
 
 
 </head>
@@ -36,13 +38,13 @@
       <a href="index.html"><img class="home-button" src="assets/images/logo.png" alt="Derivative Negotiator logo takes you home"></a>
     </div>
     <ul>
-      <li class="nav-links services-button2"><a href="#">SERVICES</a> </li>
+        <a href="#"><li class="nav-links services-button2">SERVICES</li></a>
         <a href="isdanegotiations.html"><li class="nav-links sub-links">ISDA Negotiations</li></a>
-        <li class="nav-links sub-links"><a href="publictraining.html">Public Training</a></li>
-        <li class="nav-links sub-links"><a href="inhousetraining.html">In-house Training</a></li>
-        <li class="nav-links sub-links"><a href="recruiting.html">Recruiting</a></li>
-      <li class="nav-links"><a href="#">ABOUT</a></li>
-      <li class="nav-links  blog-dropdown"><a>CONTACT</a></li>
+        <a href="publictraining.html"><li class="nav-links sub-links">Public Training</li></a>
+        <a href="inhousetraining.html"><li class="nav-links sub-links">In-house Training</li></a>
+        <a href="recruiting.html"><li class="nav-links sub-links">Recruiting</li></a>
+      <a href="about.html"><li class="nav-links">ABOUT</li></a>
+      <a href="contact.html"><li class="nav-links  blog-dropdown">CONTACT</li></a>
     </ul>
   </nav>
 
@@ -160,24 +162,8 @@
 
 
   <!-- Link to the master js file below -->
-  <script type="text/javascript">
 
 
-    $(document).ready(function(){
-    // SUBLINK DRAWER FUNCTIONALITY ON SERVICES NAV SECTION
-
-      var buttonSwitch = true;
-      $(".services-button2").click(function(){
-        // $(this).css("transform",(buttonSwitch) ? "rotate(45deg)" : "rotate(0deg)");
-        $(".sub-links").css("display",(buttonSwitch) ? "block" : "none");
-        buttonSwitch ? (buttonSwitch = false) : (buttonSwitch = true);
-      })
-
-    //
-
-
-  })//end of jQuery scripts
-  </script>
 
 
 </body>
