@@ -118,6 +118,12 @@ a {
 	top:0px;
 } */
 
+/* .hero-container{
+	max-width: 1400px;
+	height: auto;
+	width: auto;
+} */
+
 #hero-text{
 	z-index: 3;
 	position: absolute;
@@ -286,11 +292,19 @@ nav ul{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 80px 0px;
+	padding: 60px 0px;
 	height: auto;
-	background-color: rgb(235, 240, 255);
+	background-image: radial-gradient(ellipse farthest-corner at left top, #FFFFFF -50%, #6D8DAD 60%, #F7F7F7 120%);
 }
 
+.title2{
+	margin-right: auto;
+	margin-left: 50px;
+	font-size: 40px;
+	color: white;
+	font-weight: 600;
+	text-shadow: 2px 2px 2px black;
+}
 
 
 .services-container {
@@ -301,9 +315,9 @@ nav ul{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 60px 0px;
+	padding: 40px 0px;
 	height: auto;
-	background-color: rgb(235, 240, 255);
+	/* background-color: white; */
 	margin: 0 auto;
 }
 
@@ -315,7 +329,7 @@ nav ul{
 .services-showcase {
 	flex: 1;
 	flex-wrap: wrap;
-	background-color: rgb(180, 200, 232);
+	background-color: white;
 	height: 350px;
 	margin: 0px;
 	min-width: 300px;
@@ -621,7 +635,7 @@ DESKTOP VERSION
 	.article-text {
 		font-size: 17.6px;
 		font-weight: 300;
-		margin: 40px 400px 40px 160px;
+		margin: 40px 100px 40px 160px;
 		line-height: 1.8em;
 		color: rgb(40,40,40);
 	}
@@ -635,6 +649,18 @@ DESKTOP VERSION
 }
 
 
+@media only screen and (min-width : 1100px) {
+
+
+	.article-text {
+		font-size: 17.6px;
+		font-weight: 300;
+		margin: 40px 400px 40px 160px;
+		line-height: 1.8em;
+		color: rgb(40,40,40);
+	}
+
+}
 
 
 
