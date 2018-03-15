@@ -186,7 +186,7 @@ a {
 	position: absolute;
 	display: none;
   width: 100%;
-		max-width: 1400px;
+	max-width: 1400px;
   height: 80px;
   display: flex;
   align-items: center;
@@ -209,11 +209,10 @@ a {
   color: black;
   text-align: center;
   padding-left: 0px;
-	/* background: url("../images/logo.png"); */
 	background-repeat: no-repeat;
 	background-size: contain;
 	align-self: center;
-	background-color: rgb(84, 136, 216);
+
 }
 
 .nav-logo .home-button{
@@ -298,6 +297,7 @@ nav ul{
 }
 
 .title2{
+	padding: 5px;
 	margin-right: auto;
 	margin-left: 50px;
 	font-size: 40px;
@@ -305,6 +305,8 @@ nav ul{
 	font-weight: 600;
 	text-shadow: 2px 2px 2px black;
 	border-bottom: 7px solid rgb(45, 188, 230);
+	background-color: rgba(0,0,0,0.4);
+
 }
 
 
@@ -512,7 +514,6 @@ footer {
 	box-sizing: border-box;
 	height: auto;
 	width: 100%;
-	padding: 80px 10px;
 	font-size: 15px;
 	background-color: rgb(47, 61, 84);
 	color: rgb(240,240,240);
@@ -528,6 +529,7 @@ footer a:hover{
 }
 
 .footer-container {
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -535,8 +537,10 @@ footer a:hover{
 	margin: 0 auto;
 	justify-content: center;
 	height: auto;
-	width: 100%;
+	width: inherit;
 	flex-wrap: wrap;
+	padding: 80px 10px 20px 10px;
+
 }
 
 .footer-col li{
@@ -556,6 +560,12 @@ footer a:hover{
 	flex: 2;
 	min-width: 260px;
 	font-size: 18px;
+}
+
+.below-footer{
+	width: inherit;
+	padding-bottom: 10px;
+	/* margin-left: -90px; */
 }
 
 
@@ -675,8 +685,9 @@ DESKTOP VERSION
 	}
 
 
-	footer{
+	.footer-container{
 		padding-left: 100px;
+		width: inherit;
 	}
 
 	.services-showcase {
